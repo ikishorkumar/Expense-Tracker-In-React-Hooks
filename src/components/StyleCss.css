@@ -65,10 +65,18 @@ ul .incometransication{
     width: fit-content;
     border-right: 3px solid green !important;
 }
+.incometransication:hover{
+    background-color: rgba(30, 162, 30, 0.877) !important;
+    color: white !important;
+}
 ul .expensetransication{
     margin: auto;
     width: fit-content;
     border-right: 3px solid red !important;
+}
+.expensetransication:hover{
+    background-color: rgba(220, 48, 48, 0.952) !important;
+    color: white !important;
 }
 
 .amount{
