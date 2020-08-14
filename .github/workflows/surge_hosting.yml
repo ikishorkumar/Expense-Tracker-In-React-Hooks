@@ -36,4 +36,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Deployment of app to surge
-      run: surge ./build expensetracker.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build expensetrackerclass5.surge.sh --token ${{secrets.SURGE_TOKEN}}
