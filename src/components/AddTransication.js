@@ -9,7 +9,7 @@ export const  AddTransication = () => {
 
    const onSubmit= e => {
        e.preventDefault();
-        if (description !== "" && transactionsAmount !=0 ) {
+        if (description !== "" && transactionsAmount !==0 ) {
             const newTransaction = {
                 id: Math.floor(Math.random()*100000000),
                 description,
