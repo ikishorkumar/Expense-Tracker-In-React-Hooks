@@ -1,0 +1,129 @@
+#currentBalance{
+    padding: 5px;
+    width: max-content;
+    margin: auto !important;
+    background-color:  rgb(240, 240, 240);;
+    line-height: 2px;
+    border-radius: 8px;
+    color: black;
+}
+.summary{
+    margin-top: 10px !important;
+    display: inline-block;
+    padding: 0px 15px 0px 15px !important;
+    line-height: 2px !important;
+    border: 1px solid grey;
+    font-size: larger !important;
+    font-weight: bolder !important;
+    border-radius: 5px 0px 0px 5px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:  rgb(240, 240, 240);;
+    color: black;
+}
+.expense{
+    border-radius: 0px 5px 5px 0px;
+
+
+}
+.expense p {
+    color: red;
+}
+
+.income p {
+    color: green;
+}
+#THistory{
+    margin: auto !important;
+    width: fit-content;
+}
+#THistory h5{
+
+    margin-top: 12px !important;
+    font-size: larger;
+    border-bottom: 2px solid gray !important;
+    width: fit-content;
+    margin-bottom: 5px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    width: fit-content;
+    padding-left: 0px !important;
+}
+li{
+    background-color: rgb(240, 240, 240);
+    box-shadow:5px 5px 5px 3px  rgb(115, 115, 115);
+    margin-bottom: 5px !important;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+}
+ul .incometransication{
+    margin: auto;
+    width: fit-content;
+    border-right: 3px solid green !important;
+}
+ul .expensetransication{
+    margin: auto;
+    width: fit-content;
+    border-right: 3px solid red !important;
+}
+
+.amount{
+    font-weight: bold;   
+    float: right;
+    margin-left: 15px ;
+}
+.btnDel{
+    font-weight: bolder;   
+    float: left;
+    margin-right: 10px !important;
+    background-color: rgba(79, 25, 25, 0.918);
+    color: white;
+    border: none;
+    padding: 7px;
+    margin: auto;
+    border-radius: 8px;
+    margin-top:-4.6px !important;
+    margin-left:-5px !important;
+
+}
+
+.transicationAdd{
+    margin: auto !important;
+    width: fit-content;
+    text-align: justify;
+}
+.transicationAdd input{
+    padding: 5px !important;
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: whitesmoke !important;
+}
+.transicationAdd h5{
+    border-bottom: 2px solid gray;
+    margin-bottom: 12px;
+    font-size: 18px;
+    text-align: center;
+}
+label{
+    font-weight: 700;
+    margin-bottom: 3px;
+    margin-top: 8px !important;
+}
+
+.addbtn{
+    width: 100%;
+    background-color: rgba(44, 95, 196, 0.986);
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bolder;
+}
